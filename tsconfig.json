@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+    "types": [
+      "node",
+      // "@emotion/react",
+      "http-proxy-middleware",
+      "react-intersection-observer"
+    ],
+    "downlevelIteration": true
+  },
+  "include": ["src", "src/styles/emotion.d.ts", "index.d.ts"]
+}
